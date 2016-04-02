@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class TracNghiemActivity extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class TracNghiemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trac_nghiem);
         init();
+        Toast.makeText(TracNghiemActivity.this, "", Toast.LENGTH_SHORT).show();
     }
 
     private void init(){
